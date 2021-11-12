@@ -26,7 +26,7 @@ const clientes = [
     }
 ]
 
-//operador de espalhamento: entrou em cada dependente, e copiou para a lista de dependentes
+//operador de espalhamento (spread operator): entrou em cada dependente, e copiou para a lista de dependentes
 const listaDependentes = [...clientes[0].dependentes,...clientes[1].dependentes]
 
 console.table(listaDependentes)
